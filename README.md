@@ -1,13 +1,9 @@
 BFH stm32f4 discovery linuxsupport
 ============================
 
-#TODO
-Adjust this readme
-
-
 ## Synopsis
 
-The following project consists of a minimal setup for the carme-m4 STM32F407 board. The makefile should be easily adaptable to your needs. 
+The following project consists of a minimal setup for the STM32 discovery board. The makefile should be easily adaptable to your needs. 
 
 ## Motivation
 
@@ -32,7 +28,7 @@ The package names are taken from the arch linux community repository, hence they
    
 - Clone the repository.
 - Install the required software packages.
-- Plug in your carme-m4.
+- Plug in your discovery board.
 - Don't forget to add yourself to the group 'dialout' by invoking "gpasswd -a ${USER} dialout"
     
 #### using make
@@ -42,14 +38,12 @@ The package names are taken from the arch linux community repository, hence they
 - flash software: make flash
 - start/stop st-util deamon: make start/stop
 
-
 #### eclipse support
 
 If you want to use eclipse instead of pure makefiles you are free to do so and we are happy to support you with that:
 
 - Checkout the readme in the eclipse directory for instructions on how to install and configure eclipse correctly.
 - Import the example project into eclipse as "existing project" and have fun :)
-
 
 ## Contributors
 
@@ -58,8 +52,8 @@ If you want to use eclipse instead of pure makefiles you are free to do so and w
 
 ## Links
 
-- https://carme.bfh.ch
+- http://www.st.com/web/en/catalog/tools/FM116/SC959/SS1532/PF250863?sc=stm32-discovery
 
 ## Additional Tags
 
-stm32, stm32f407, bfh ti, berner fachhochschule für technik und informatik, carme-m4, atollic true studio, linux
+stm32, stm-discovery, discovery board, bfh ti, berner fachhochschule für technik und informatik, linux
